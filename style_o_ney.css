@@ -1,0 +1,66 @@
+﻿
+/*
+font-family: 'Philosopher', sans-serif;
+font-family: 'Jura', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Andika', sans-serif;
+font-family: 'Rubik One', sans-serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Kurale', serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Bad Script', cursive;
+*/
+
+
+body {
+
+background-image:url(vedmak1.jpg);/*картинка на фоне*/
+background-repeat:no-repeat;
+background-size:100%;
+//background: radial-gradient(circle closest-corner at top,#660022, #AA0077);
+width:100%;
+background-color:black;/*цвет фона*/
+
+
+}
+
+.info_lichnoe{
+background-color:white;/*цвет фона*/
+padding:1%;
+//float:left;
+//border-radius:5%;
+margin:5% 20%;
+
+}
+
+.info_lichnoe h2{
+color:blue;/*цвет*/
+margin:1% 20%;
+text-decoration:underline;
+font-family: 'Bad Script', cursive;
+}
+
+.info_lichnoe p{
+font-family: 'Jura', sans-serif;
+}
+
+table{
+
+}
+
+table tr td{
+border: 1px solid black; /* Рамка вокруг ячеек */
+}
+
+.td1{
+color:blue;/*цвет*/
+font-size:150%;
+font-family: 'Andika', sans-serif;
+width:20%;
+background-color:silver;/*цвет фона таблицы*/
+}
+.td2{
+color:green;/*цвет*/
+background-color:white;
+font-family: 'Kurale', serif;
+}

@@ -1,0 +1,470 @@
+﻿/*
+font-family: 'Philosopher', sans-serif;
+font-family: 'Jura', sans-serif;
+font-family: 'Playfair Display SC', serif;
+font-family: 'Andika', sans-serif;
+font-family: 'Rubik One', sans-serif;
+font-family: 'Yeseva One', cursive;
+font-family: 'Kurale', serif;
+*/
+
+h1,h2,h3,h4,p,span,.form_otzyv-delete table,#opisanie_uslug a{/*цвет*/
+color:silver;
+}
+
+.autoriz p,.autoriz h3,.autoriz input,p.sms{/*цвет*/
+color:black;
+}
+
+.autoriz a,a.autorizatcia,.autorizatcia_sms,#dogruzka_sms_button,b,.submit_file,.submit_smski,b.adm_sms_adresat:hover,#opisanie_uslug a:hover,a.vyiti:hover{
+color:blue;/*цвет*/
+}
+
+b.adresat,p.sms:hover i,.danger{/*цвет*/
+color:red;
+}
+
+a,a.autorizatcia:hover,.autorizatcia_sms:hover,#dogruzka_sms_button:hover,p.sms i,#biografia p,.submit_file:hover,.submit_smski:hover,b.adm_sms_adresat,a.vyiti{
+color:white;/*цвет*/
+}
+
+.td2,p.online{
+color:green;/*цвет*/
+background-color:white;
+}
+
+.autorizatcia_sms:hover,#dogruzka_sms_button:hover,a.autorizatcia:hover,.submit_file:hover,.submit_smski:hover{
+background-color:blue;/*цвет фона*/
+}
+
+.danger, #voyti,.submit_smski,p.sms,#dogruzka_sms_button,.autorizatcia_sms,a.autorizatcia,.autoriz{
+background-color:white;/*цвет фона*/
+}
+
+p{
+font-size:120%;
+font-family: 'Yeseva One', cursive;
+}
+p.sms{
+font-size:120%;
+font-family: 'Rubik One', sans-serif;
+}
+
+
+a{
+font-size:120%;
+font-family: 'Philosopher', sans-serif;
+}
+b{
+font-size:120%;
+font-family: 'Playfair Display SC', serif;
+}
+
+h1{
+font-size:4em;
+font-family: 'Marck Script', cursive;
+}
+h2{
+font-size:3em;
+font-family: 'Bad Script', cursive;
+}
+h3{
+font-size:2em;
+font-family: 'Bad Script', cursive;
+}
+
+
+
+body {
+
+//background-image:url(fotografii/1442825749a2xpZW50.jpg);/*картинка на фоне*/
+background-image:url(fon_p.png);/*картинка на фоне*/
+background-repeat:no-repeat;online
+background-size:100%;
+//background: radial-gradient(circle closest-corner at top,#660022, #AA0077);
+
+height:100%;
+background-color:#111111; /*цвет фона*/
+
+}
+
+#line_1{
+min-height:15%;
+//border:1px solid white;
+width:99%;
+position:relative;
+display:block;
+}
+
+
+﻿#online.online{
+visibility:visible;
+position:relative;
+display:inline;
+}
+
+#online.neonline{
+visibility:hidden;
+}
+
+#ee_imya{
+//border:1px solid white;
+position:relative;
+//width:80%;
+align:center;
+display:inline-block;
+}
+
+h1{
+position:relative;
+display:block;
+padding:0 15%;
+}
+
+h2{
+position:relative;
+display:block;
+padding:0 5%;
+}
+
+h3{
+position:relative;
+display:inline;
+}
+
+.autoriz{
+position:relative;
+display:inline-block;autorizatcia_sms
+}
+
+.autoriz p,.autoriz a,.autoriz input,.autoriz h3{
+padding:1%;
+margin:1%;
+position:relative;
+display:block;
+}
+
+.autoriz input[type="checkbox"]{
+display:inline;
+}
+
+p{
+font-style: italic;
+position:relative;
+display:inline;
+}
+
+b{
+font-style: italic;
+position:relative;
+}
+
+b.adresat{
+font-style: normal;
+position:relative;
+}
+
+a.autorizatcia{
+font-style:normal;
+font-size:100%;
+//border:1px solid white;
+position:relative;
+display:inline-block;
+border-radius:5px;
+text-decoration:none;
+width:10%;
+padding:1% 3%;
+margin:1% 0%;
+}
+
+a.autorizatcia:hover{
+
+}
+
+.autorizatcia_sms{
+font-style:normal;
+font-size:150%;
+position:relative;
+display:block-inline;
+border-radius:5px;
+text-decoration:none;
+padding:0% 3%;
+margin:3% 0;
+}
+
+.autorizatcia_sms:hover{
+position:relative;
+
+}
+
+#line_2{
+min-height:85%;
+height:100%;
+//border:1px solid white;
+position:relative;
+display:block;
+width:100%;
+}
+
+#column_1{
+min-height:85%;
+height:100%;
+margin:0;
+padding:0;
+overflow-y: auto;
+position:absolute;
+display:block;
+z-index:0;
+//border:1px solid white;
+width:20%;
+}
+
+#column_2{
+min-height:85%;
+height:100%;
+margin:0;
+padding:0;
+overflow-y: auto;
+position:absolute;
+display:block;
+z-index:0;
+//border:1px solid white;
+left:20%;
+width:50%;
+}
+
+#opisanie_uslug{
+position:relative;
+display:block;
+padding:1% 3%;
+}
+
+#dogruzka_sms_button{
+position:relative;
+display:block;
+
+border-radius:15%;
+}
+
+#dogruzka_sms_button:hover{
+
+}
+
+#soobsheniya{
+height:50%;
+position:relative;
+display:block;
+//border:1px solid white;
+overflow-y: auto;
+//margin:1% 0% 1% 0%;
+}
+
+.sms_form{
+position:relative;
+display:block;
+//margin:1% 0% 1% 0%;
+}
+
+p.sms{
+position:relative;
+display:block;
+padding:1%;
+//margin:1%;
+}
+
+p.sms i{
+position:relative;
+display:inline;
+
+}
+
+p.sms:hover i{
+position:relative;
+display:inline;
+
+}
+
+.submit_smski{
+position:relative;
+display:inline;
+
+margin:1% 0% 1% 0%;
+float:right;
+}
+
+
+#soobsheniya_written{
+min-height:20%;
+position:relative;
+bottom:0;
+display:block;
+//border:1px solid white;
+width:100%;
+margin:1% 0%;
+}
+
+#column_3{
+margin:0;
+padding:0;
+min-height:85%;
+height:100%;
+overflow-y: auto;
+position:absolute;
+display:block;
+z-index:0;
+//border:1px solid white;
+right:0;
+width:30%;
+}
+
+.img_foto{
+position:relative;
+display:block;
+width:50%;
+border-radius:10%;
+padding:2%;
+}
+
+#biografia{
+display:block-inline;
+position:relative;
+padding:2%;
+width:70%;
+}
+
+#biografia h3{
+display:block;
+position:relative;
+}
+
+#biografia p{
+
+position:relative;
+display:block;
+}
+
+#column_1_admin{
+width:50%;
+float:left;
+height:80%;
+position:relative;
+display:block;
+}
+
+#admin_sms{
+overflow-y: auto;
+height:70%;
+position:relative;
+margin:1%;
+padding:1%;
+}
+
+.form_admin_sms{
+position:absolute;
+float:left;
+display:block;
+bottom:0;
+}
+
+#fotki_polzovateley{
+position:relative;
+
+margin:1%;
+padding:1%;
+height:80%;
+width:40%;
+overflow-y: auto;
+}
+
+img.ot_polzovatelya{
+position:relative;
+display:inline;
+width:40%;
+}
+
+img.ot_polzovatelya:hover{
+position:relative;
+display:inline;
+width:80%;
+}
+
+.danger{
+
+margin:1%;
+padding:1%;
+
+}
+
+b.adm_sms_adresat:hover{
+position:relative;
+
+}
+
+b.adm_sms_adresat{
+position:relative;
+
+}
+
+#voyti{
+position:relative;
+display:block-inline;
+
+left:-300%;
+//width:100%;
+border-radius:5%;
+float:left;
+-webkit-transition: left 2s ease-out 0s;
+-moz-transition: left 2s ease-out 0s;
+-o-transition: left 2s ease-out 0s;
+transition: left 2s ease-out 0s;
+visibility:hidden;
+}
+
+
+
+#opisanie_uslug p {
+font-style:normal;
+font-size:130%;
+position:relative;
+display:block;
+
+text-decoration:underline;/*подчеркивает текст*/
+}
+
+
+#redakt_admin{
+position:relative;
+display:block;
+float:left;
+}
+
+.form_otzyv-delete{
+position:absolute;
+display:block;
+float:left;
+}
+.form_otzyv-delete table{
+position:relative;
+}
+
+
+
+
+
+table tr td{
+/*border: 1px solid black; */
+}
+
+.td1{
+color:blue;/*цвет*/
+font-size:150%;
+font-family: 'Andika', sans-serif;
+width:20%;
+background-color:white;
+
+
+}
+.td2{
+background-color:white;
+font-family: 'Kurale', serif;
+}
